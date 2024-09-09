@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start navbar section ***************************************************************** */
+
+.nav-home {
+    background: #212121;
+    height: 10vh;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-home a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 1.3rem;
+    margin: 10px;
+    letter-spacing: 1px;
+    transition: .2s;
+}
+
+.nav-home a:hover {
+    color: rgba(255, 255, 255, 0.842);
+}
+
+/* end navbar section ***************************************************************** */
+
+/* start abetter-section ***************************************************************** */
+.first-sec {
+    background: url(../img/back.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    /* background-color: #721515; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-sec h3 {
+    font-family: monospace;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.first-sec p {
+    font-size: 1.1rem;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.first-sec div input {
+    padding: 10px 35px;
+    font-size: 14px;
+    color: white;
+    font-family: monospace;
+    letter-spacing: 1px;
+    margin-left: 1vw;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    transition: .2s;
+}
+
+.first-sec div input:nth-of-type(1) {
+    background-color: #6f0f41;
+    cursor: pointer;
+}
+
+.first-sec div input:nth-of-type(2) {
+    background-color: #2c9279;
+    cursor: pointer;
+}
+
+/* end abetter-section ***************************************************************** */
+
+/* start how section *********************************************************************** */
+.second-sec-title {
+    height: 20vh;
+    /* border: 1px solid darkblue; */
+
+}
+
+.second-sec-title h3 {
+    font-family: monospace;
+    font-size: 25px;
+    letter-spacing: 3px;
+    /* background: red; */
+    text-align: center;
+    margin-top: 5vh;
+
+
+}
+
+.second-sec-title hr {
+    width: 200px;
+    height: 2px;
+    background: #e61d1d;
+    margin: 3vh auto;
+}
+
+.secon-sec-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secon-sec-content div {
+    width: 47%;
+    /* border: 2px solid darkcyan; */
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secon-sec-content div img {
+    width: 90%;
+    height: 410px;
+
+}
+
+.secon-sec-content div p {
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    align-self: center;
+    line-height: 35px;
+}
+
+span {
+    font-size: 50px;
+    color: red
+}
+
+/* end how section *********************************************************************** */
+
+
+
+/* start boxes section *********************************************************************** */
+.third-sec-parent {
+    background: rgba(0, 0, 0, 0.027);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.third-sec-parent div {
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #cccccc73;
+}
+
+.third-sec-parent div img {
+    width: 85%;
+    height: 400px;
+
+}
+
+.third-sec-parent div p {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+
+/* end boxes section *********************************************************************** */
+
+
+/* start se5c-form  *********************************************************************** */
+.form {
+    width: 100%;
+    background: url(../img/contact\ us.gif) no-repeat center scroll;
+    background-position: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form form {
+    width: 90%;
+    /* background-color: aquamarine; */
+    margin-top: 15px;
+
+}
+
+.form h3 {
+    font-family: monospace;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: 25px;
+}
+
+.form form input {
+    width: 86%;
+    margin: 15px 18px;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form form textarea {
+    width: 86%;
+    margin: 15px 18px;
+    padding: 17px;
+    border: none;
+    border-radius: 5px;
+    height: 10vh;
+}
+
+.form form input:nth-of-type(3) {
+    color: white;
+    background-color: #212121;
+    width: 10%;
+    padding: 15px 20px;
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 5vh;
+    transition: .2s;
+}
+.form form input:nth-of-type(3):hover {
+    color: #212121;
+    background-color: rgba(255, 255, 255, 0.267);
+    cursor: pointer;
+}
+
+
+
+/* end se5c-form *********************************************************************** */
+
+
+/*  start mail section*********************************************************************** */
+.mail {
+    background: url(../img/html-color-codes-color-tutorials-hero-00e10b1f.jpg) ;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail h3 {
+    font-family: monospace;
+    font-size: 30px;
+    color: white;
+    margin-top: 15vh;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.mail input:nth-of-type(1) {
+    width: 80%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5vh 0;
+}
+
+.mail input:nth-of-type(2) {
+    color: white;
+    background-color: #212121;
+    width: 10%;
+    padding: 15px 20px;
+    border: none;
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    margin-bottom: 15vh;
+    transition: .2s;
+    
+}
+.mail input:nth-of-type(2):hover {
+    color: #212121;
+    background-color: rgba(255, 255, 255, 0.267);
+    cursor: pointer;
+    
+}
+
+
+/* end mail section *********************************************************************** */
